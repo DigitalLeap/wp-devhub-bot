@@ -4,7 +4,7 @@
   "description": "Basic WordPress DevHub bot.",
   "main": "wp-devhub-bot.js",
   "dependencies": {
-    "botkit": "^0.2.2",
+    "botkit": "^0.2.2"
   },
   "scripts": {
     "start": "node wp-devhub-bot.js",
