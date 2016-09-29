@@ -2,7 +2,7 @@
   "name": "wp-devhub-bot",
   "version": "0.1",
   "description": "Basic WordPress DevHub bot.",
-  "main": "lib/Botkit.js",
+  "main": "wp-devhub-bot.js",
   "dependencies": {
     "async": "^2.0.0-rc.5",
     "back": "^1.0.1",
@@ -24,6 +24,7 @@
     "winston": "^2.1.1"
   },
   "scripts": {
+    "start": "node wp-devhub-bot.js",
     "pretest": "jscs ./lib/",
     "test": "mocha tests/*.js"
   },
