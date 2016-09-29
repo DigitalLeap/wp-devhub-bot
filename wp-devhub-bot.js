@@ -81,3 +81,5 @@ controller.hears(['Hook: `(.*)`'], 'direct_message,direct_mention,mention', func
     });
 
 });
+
+controller.setupWebserver( process.env.PORT || 5000 );
