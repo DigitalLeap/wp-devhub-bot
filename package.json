@@ -1,9 +1,10 @@
 {
   "name": "wp-devhub-bot",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Basic WordPress DevHub bot.",
   "main": "wp-devhub-bot.js",
   "dependencies": {
+    "botkit": "^0.2.2",
     "async": "^2.0.0-rc.5",
     "back": "^1.0.1",
     "body-parser": "^1.14.2",
