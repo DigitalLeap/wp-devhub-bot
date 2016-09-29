@@ -1,2 +1,2 @@
-web: npm install --production
-web: node wp-devhub-bot.js
+worker: npm install --production
+worker: node wp-devhub-bot.js
